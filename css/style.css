@@ -347,6 +347,9 @@ body, html{
     padding-left: 20px;
     padding-top: 18px;
     padding-bottom: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
 }
 .submit{
     font-size: 18px;
