@@ -66,10 +66,11 @@ body, html{
     font-weight: 500;
     margin-right: 40px;
 }
-.knopki2{
-    font-size: 18;
-    font-weight: 500;
-    margin-right: 40px;
+.knopki:hover{
+    color: #B5B5B5;
+}
+.knopki:active{
+    color: #858585;
 }
 .knopki1{
     font-size: 18px;
@@ -81,6 +82,24 @@ body, html{
     padding-bottom: 15px;
     background-color: #F64538;
     border-radius: 10px;
+}
+.knopki1:hover{
+    background-color: #F67167;
+}
+.knopki1:active{
+    background-color: #F6837B;
+}
+.stdknp:hover{
+    background-color: #C1C1C1;
+}
+.stdknp:active{
+    background-color: #595959;
+}
+.stdknp1:hover{
+    background-color: rgba(193,193,193,0.5);
+}
+.stdknp1:active{
+    background-color: rgba(89,89,89,0.5);
 }
 .kartinka{
     width: 1900px;
@@ -342,6 +361,13 @@ body, html{
     text-decoration: none;
     color: white;
     font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: #F67167;
+}
+.submit:active{
+    background-color: #F6837B;
 }
 .karta{
     height: 300px;
@@ -383,7 +409,7 @@ body, html{
     height: 65px;
     width: 65px;
     border: 1px solid #0B0B0B;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-right: 30px;
     background-color: #0B0B0B;
     display: flex;
@@ -394,7 +420,7 @@ body, html{
     height: 65px;
     width: 65px;
     border: 1px solid #0B0B0B;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-right: 30px;
     background-color: #0B0B0B;
     display: flex;
@@ -405,7 +431,7 @@ body, html{
     height: 65px;
     width: 65px;
     border: 1px solid #0B0B0B;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-right: 30px;
     background-color: #0B0B0B;
     display: flex;
