@@ -177,7 +177,7 @@ body{
     width: 670px;
     height: 235px;
     margin-bottom: 30px;
-    /*background-image: url(/img/1.svg);*/
+    background-image: url(/img/1.svg);
     background-size: cover;
 }
 .pikchiblok2{
@@ -189,26 +189,26 @@ body{
     margin-right: 30px;
     height: 235px;
     width: 405px;
-    /*background-image: url(/img/2.svg);*/
+    background-image: url(/img/2.svg);
     background-size: cover;
 }
 .pikchi33{
     width: 235px;
     height: 235px;
-    /*background-image: url(/img/3.svg);*/
+    background-image: url(/img/3.svg);
     background-size: cover;
 }
 .pikchi2{
     margin-right: 30px;
     height: 500px;
     width: 500px;
-    /*background-image: url(/img/4.svg);*/
+    background-image: url(/img/4.svg);
     background-size: cover;
 }
 .pikchi3{
     height: 500px;
     width: 670px;
-    /*background-image: url(/img/5.svg);*/
+    background-image: url(/img/5.svg);
     background-size: cover;
 }
 .bloki3text{
