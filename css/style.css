@@ -1,0 +1,318 @@
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    margin: 0 0;
+    padding: 0 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+h2{
+    margin: 0 0;
+    padding: 0 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+h3{
+    margin: 0 0;
+    padding: 0 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+h4{
+    margin: 0 0;
+    padding: 0 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    margin: 0 0;
+    padding: 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #101010;
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    width: 1900px;
+    height: 170px;
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+}
+.vseknp{
+    display: flex;
+    align-items: center;
+    height: 170px;
+    width: 740px;
+}
+.logo{
+    height: 170px;
+    width: 1160px;
+}
+.knopki{
+    font-size: 18;
+    font-weight: 500;
+    margin-right: 40px;
+}
+.knopki2{
+    font-size: 18;
+    font-weight: 500;
+    margin-right: 40px;
+}
+.knopki1{
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid black;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #F64538;
+    border-radius: 10px;
+}
+.kartinka{
+    width: 1900px;
+    height: 464px;
+    background-image: url(/img/back.svg);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+.nad1{
+    display: flex;
+    align-items: flex-end;
+    height: 93px;
+    margin-left: 145px;
+}
+.strdr{
+    font-size: 24px;
+    font-weight: 500;
+}
+.nad2{
+    display: flex;
+    align-items: center;
+    height: 196px;
+    margin-left: 145px;
+}
+.naddr{
+    font-size: 64px;
+    font-weight: 700;
+}
+.knop2{
+    display: flex;
+    align-items: center;
+    height: 175px;
+    margin-left: 145px;
+}
+.stdknp{
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 40px;
+    color: black;
+    border: 1px solid white;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+.stdknp1{
+    font-size: 18;
+    font-weight: 500;
+    margin-right: 40px;
+    border: 3px solid white;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.okompanii{
+    width: 1900px;
+    height: 1125px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.nashkomp{
+    height: 174px;
+    width: 1755px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 145px;
+}
+.nashkomptext{
+    font-size: 36px;
+    font-weight: 500;
+}
+.pikchi{
+    height: 500px;
+    width: 1900px;
+    display: flex;
+}
+.pikchi1{
+    margin-right: 30px;
+    height: 500px;
+    width: 670px;
+}
+.pikchiblok1{
+    width: 670px;
+    height: 235px;
+    margin-bottom: 30px;
+}
+.pikchi11{
+    width: 670px;
+    height: 235px;
+    margin-bottom: 30px;
+    /*background-image: url(/img/1.svg);*/
+    background-size: cover;
+}
+.pikchiblok2{
+    height: 235px;
+    width: 670px;
+    display: flex;
+}
+.pikchi22{
+    margin-right: 30px;
+    height: 235px;
+    width: 405px;
+    /*background-image: url(/img/2.svg);*/
+    background-size: cover;
+}
+.pikchi33{
+    width: 235px;
+    height: 235px;
+    /*background-image: url(/img/3.svg);*/
+    background-size: cover;
+}
+.pikchi2{
+    margin-right: 30px;
+    height: 500px;
+    width: 500px;
+    /*background-image: url(/img/4.svg);*/
+    background-size: cover;
+}
+.pikchi3{
+    height: 500px;
+    width: 670px;
+    /*background-image: url(/img/5.svg);*/
+    background-size: cover;
+}
+.bloki3text{
+    height: 184px;
+    display: flex;
+    align-items: center;
+    margin-left: 145px;
+}
+.text1{
+    width: 350px;
+    height: 104px;
+    border: 1px solid #0B0B0B;
+    border-radius: 30px;
+    background-color: #0B0B0B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 280px;
+}
+.text2{
+    width: 350px;
+    height: 104px;
+    border: 1px solid #0B0B0B;
+    border-radius: 30px;
+    background-color: #0B0B0B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 280px;
+}
+.text3{
+    width: 350px;
+    height: 104px;
+    border: 1px solid #0B0B0B;
+    border-radius: 30px;
+    background-color: #0B0B0B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textvnutri{
+    width: 278px;
+    height: 54px;
+    border-left: 2px solid #F64538;
+}
+.textvnutri1{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.8);
+    padding-left: 20px;
+}
+.bloki2text{
+    width: 1755px;
+    height: 267px;
+    margin-left: 145px;
+    display: flex;
+}
+.text11{
+    margin-right: 130px;
+    width: 740px;
+}
+.text22{
+    width: 740px;
+}
+.text11blok2{
+    color: rgba(255,255,255,0.4);
+    font-size: 25px;
+    font-weight: 400;
+}
+.kontakti{
+    width: 1900px;
+    height: 425px;
+    margin-bottom: 120px;
+}
+.podval{
+    width: 1900px;
+    height: 120px;
+    background-color: #0B0B0B;
+    display: flex;
+}
+.copyright{
+    height: 120px;
+    width: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copy{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.6);
+}
+.pustoy{
+    width: 1048px;
+    height: 120px;
+}
+.knopkipodval{
+    height: 120px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pustoy2{
+    height: 120px;
+    width: 146px;
+}
