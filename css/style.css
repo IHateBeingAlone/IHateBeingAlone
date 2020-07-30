@@ -347,6 +347,7 @@ body, html{
     padding-left: 20px;
     padding-top: 18px;
     padding-bottom: 15px;
+    padding-right: 15px;
     text-decoration: none;
     color: white;
     font-family: 'Rubik', sans-serif;
@@ -375,6 +376,11 @@ body, html{
 .karta{
     height: 300px;
     width: 1470px;
+	filter: invert(100%);
+	-ms-filter: invert(100%);
+	-webkit-filter: invert(100%);
+	-moz-filter: invert(100%);
+    -o-filter: invert(100%);
 }
 .kontakti2blok{
     width: 1755px;
