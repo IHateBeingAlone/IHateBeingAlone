@@ -34,37 +34,47 @@ h4{
 html{
     scroll-behavior: smooth;
 }
-body, html{
-    margin: 0 0;
-    padding: 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #101010;
-    width: 100%;
+html, body{
+    margin: auto;
+    padding: 0;
+    width: 1900px;
     height: 100%;
+    background-color: #101010;
+    min-width: 495px;
+}
+.logotip{
+    width: 80px;
+    height: 80px;
 }
 .menu{
-    width: 1900px;
-    height: 170px;
+    width: 100%;
+    height: 18.1%;
     background-color: #101010;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 .vseknp{
     display: flex;
     align-items: center;
-    height: 170px;
-    width: 740px;
+    height: 100%;
+    width: 39%;
+}
+.logopustoe{
+    height: 100%;
+    width: 52%;
 }
 .logo{
-    height: 170px;
-    width: 1160px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 9%;
+    margin-left: 7.4%;
 }
 .knopki{
-    font-size: 18;
+    font-size: 18px;
     font-weight: 500;
-    margin-right: 40px;
+    margin-right: 6%;
 }
 .knopki:hover{
     color: #B5B5B5;
@@ -75,13 +85,14 @@ body, html{
 .knopki1{
     font-size: 18px;
     font-weight: 500;
-    border: 1px solid black;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    border: 1px solid #F64538;
+    width: 32%;
+    height: 29.4%;
     background-color: #F64538;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .knopki1:hover{
     background-color: #F67167;
@@ -102,19 +113,20 @@ body, html{
     background-color: rgba(89,89,89,0.5);
 }
 .kartinka{
-    width: 1900px;
-    height: 464px;
+    width: 100%;
+    height: 49.5%;
     background-image: url(/img/back.svg);
-    background-size: 100%;
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    margin-bottom: 120px;
+    margin-bottom: 6.4%;
 }
 .nad1{
     display: flex;
     align-items: flex-end;
-    height: 93px;
-    margin-left: 145px;
+    height: 20%;
+    margin-left: 7.4%;
+    width: 92%;
 }
 .strdr{
     font-size: 24px;
@@ -123,8 +135,9 @@ body, html{
 .nad2{
     display: flex;
     align-items: center;
-    height: 196px;
-    margin-left: 145px;
+    height: 42.2%;
+    margin-left: 7.4%;
+    width: 92%;
 }
 .naddr{
     font-size: 64px;
@@ -133,166 +146,160 @@ body, html{
 .knop2{
     display: flex;
     align-items: center;
-    height: 175px;
-    margin-left: 145px;
+    height: 37.7%;
+    margin-left: 7.4%;
+    width: 92%;
 }
 .stdknp{
     font-size: 18px;
     font-weight: 500;
-    margin-right: 40px;
+    margin-right: 2.3%;
     color: black;
-    border: 1px solid white;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    border: 3px solid white;
     border-radius: 10px;
     background-color: white;
+    width: 9.4%;
+    height: 28.6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .stdknp1{
     font-size: 18;
     font-weight: 500;
-    margin-right: 40px;
     border: 3px solid white;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
     border-radius: 10px;
+    width: 9.4%;
+    height: 28.6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .okompanii{
-    width: 1900px;
-    height: 1125px;
-    margin-bottom: 120px;
+    width: 100%;
+    height: 120.1%;
+    margin-bottom: 12.8%;
     display: flex;
     flex-direction: column;
 }
 .nashkomp{
-    height: 174px;
-    width: 1755px;
+    height: 15.5%;
+    width: 92%;
     display: flex;
     align-items: flex-start;
-    margin-left: 145px;
+    margin-left: 7.4%;
 }
 .nashkomptext{
     font-size: 36px;
     font-weight: 500;
 }
 .pikchi{
-    height: 500px;
-    width: 1900px;
+    height: 44.4%;
+    width: 100%;
     display: flex;
 }
 .pikchi1{
     margin-right: 30px;
-    height: 500px;
-    width: 670px;
+    height: 100%;
+    width: 35.3%;
 }
 .pikchiblok1{
-    width: 670px;
-    height: 235px;
+    width: 100%;
+    height: 47%;
     margin-bottom: 30px;
 }
 .pikchi11{
-    width: 670px;
-    height: 235px;
-    margin-bottom: 30px;
+    width: 100%;
+    height: 100%;
     background-image: url(/img/1.png);
+    background-size: 100%;
     background-size: cover;
+    background-position: center center;
 }
 .pikchiblok2{
-    height: 235px;
-    width: 670px;
+    height: 47%;
+    width: 100%;
     display: flex;
 }
 .pikchi22{
     margin-right: 30px;
-    height: 235px;
-    width: 405px;
+    height: 100%;
+    width: 60.4%;
     background-image: url(/img/2.png);
+    background-size: 100%;
     background-size: cover;
+    background-position: center center;
 }
 .pikchi33{
-    width: 235px;
-    height: 235px;
+    width: 35%;
+    height: 100%;
     background-image: url(/img/3.png);
+    background-size: 100%;
     background-size: cover;
+    background-position: center center;
 }
 .pikchi2{
     margin-right: 30px;
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 26.2%;
     background-image: url(/img/4.png);
+    background-size: 100%;
     background-size: cover;
+    background-position: center center;
 }
 .pikchi3{
-    height: 500px;
-    width: 670px;
+    height: 100%;
+    width: 35.3%;
     background-image: url(/img/5.png);
+    background-size: 100%;
     background-size: cover;
+    background-position: center center;
 }
 .bloki3text{
-    height: 184px;
+    height: 16.35%;
     display: flex;
     align-items: center;
-    margin-left: 145px;
+    margin-left: 7.4%;
+}
+.texti3shtuk{
+    width: 19.94%;
+    height: 56.52%;
+    border: 1px solid #0B0B0B;
+    border-radius: 30px;
+    background-color: #0B0B0B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .text1{
-    width: 350px;
-    height: 104px;
-    border: 1px solid #0B0B0B;
-    border-radius: 30px;
-    background-color: #0B0B0B;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 280px;
-}
-.text2{
-    width: 350px;
-    height: 104px;
-    border: 1px solid #0B0B0B;
-    border-radius: 30px;
-    background-color: #0B0B0B;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 280px;
-}
-.text3{
-    width: 350px;
-    height: 104px;
-    border: 1px solid #0B0B0B;
-    border-radius: 30px;
-    background-color: #0B0B0B;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-right: 15.95%;
 }
 .textvnutri{
-    width: 278px;
-    height: 54px;
+    width: 79.43%;
+    height: 51.92%;
     border-left: 2px solid #F64538;
+    display: flex;
+    align-items: center;
 }
 .textvnutri1{
     font-size: 14px;
     font-weight: 400;
     color: rgba(255,255,255,0.8);
-    padding-left: 20px;
+    padding-left: 7.1%;
 }
 .bloki2text{
-    width: 1755px;
-    height: 267px;
-    margin-left: 145px;
+    width: 92.37%;
+    height: 23.73%;
+    margin-left: 7.4%;
     display: flex;
 }
 .text11{
-    margin-right: 130px;
-    width: 740px;
+    margin-right: 7.4%;
+    width: 42.17%;
 }
 .text22{
-    width: 740px;
+    width: 42.17%;
 }
 .text11blok2{
     color: rgba(255,255,255,0.4);
@@ -300,22 +307,22 @@ body, html{
     font-weight: 400;
 }
 .kontakti{
-    width: 1755px;
-    height: 425px;
-    margin-bottom: 120px;
-    margin-left: 145px;
+    width: 92.37%;
+    height: 45.36%;
+    margin-bottom: 12.8%;
+    margin-left: 7.4%;
     display: flex;
     flex-direction: column;
 }
 .kontakti1blok{
-    width: 1755px;
-    height: 300px;
+    width: 100%;
+    height: 70.59%;
     display: flex;
-    margin-bottom: 60px;
+    margin-bottom: 3.5%;
 }
 .forma{
-    height: 300px;
-    width: 255px;
+    height: 100%;
+    width: 14.37%;
     border: 1px solid #0B0B0B;
     border-radius: 10px;
     background-color: #0B0B0B;
@@ -323,43 +330,45 @@ body, html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-right: 30px;
+    margin-right: 1.71%;
 }
 .zagolovok{
     text-decoration: none;
     color: white;
     font-family: 'Rubik', sans-serif;
-    margin-bottom: 27px;
+    margin-bottom: 13.5%;
     font-size: 18px;
     font-weight: 500;
     display: flex;
     justify-content: center;
 }
 .placeholder{
-    height: 50px;
-    width: 195px;
-    margin-bottom: 20px;
+    height: 21.5%;
+    width: 74.47%;
+    margin-bottom: 11.2%;
+
 }
 .vvod{
     border: 1px solid #101010;
     border-radius: 10px;
     background-color: #101010;
-    padding-left: 20px;
-    padding-top: 18px;
-    padding-bottom: 15px;
-    padding-right: 15px;
+    padding-left: 13%;
+    padding-top: 11%;
+    padding-bottom: 11%;
     text-decoration: none;
     color: white;
     font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
 }
 .submit1{
     font-size: 18px;
     font-weight: 500;
     border: 1px solid black;
-    padding-right: 57px;
-    padding-left: 56px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-right: 28.5%;
+    padding-left: 28.5%;
+    padding-top: 9%;
+    padding-bottom: 9%;
     background-color: #F64538;
     border-radius: 10px;
     text-decoration: none;
@@ -374,8 +383,8 @@ body, html{
     background-color: #F6837B;
 }
 .karta{
-    height: 300px;
-    width: 1470px;
+    height: 100%;
+    width: 83.76%;
 	filter: invert(100%);
 	-ms-filter: invert(100%);
 	-webkit-filter: invert(100%);
@@ -383,35 +392,35 @@ body, html{
     -o-filter: invert(100%);
 }
 .kontakti2blok{
-    width: 1755px;
-    height: 65px;
+    width: 100%;
+    height: 16%;
     display: flex;
 }
 .pustoykontakti{
-    height: 65px;
-    width: 255px;
-    margin-right: 30px;
+    height: 100%;
+    width: 14.53%;
+    margin-right: 1.51%;
 }
 .kontaktiiconci{
-    height: 65px;
-    width: 1470px;
+    height: 100%;
+    width: 83.76%;
     display: flex;
 }
 .adres{
-    height: 65px;
-    width: 300px;
-    margin-right: 80px;
+    height: 100%;
+    width: 20.41%;
+    margin-right: 5.44%;
     display: flex;
 }
 .phone{
-    height: 65px;
-    width: 300px;
-    margin-right: 80px;
+    height: 100%;
+    width: 20.41%;
+    margin-right: 5.44%;
     display: flex;
 }
 .pochta{
-    height: 65px;
-    width: 300px;
+    height: 100%;
+    width: 20.41%;
     display: flex;
 }
 .iconadres{
@@ -419,7 +428,7 @@ body, html{
     width: 65px;
     border: 1px solid #0B0B0B;
     border-radius: 15px;
-    margin-right: 30px;
+    margin-right: 10%;
     background-color: #0B0B0B;
     display: flex;
     justify-content: center;
@@ -430,7 +439,7 @@ body, html{
     width: 65px;
     border: 1px solid #0B0B0B;
     border-radius: 15px;
-    margin-right: 30px;
+    margin-right: 10%;
     background-color: #0B0B0B;
     display: flex;
     justify-content: center;
@@ -441,7 +450,7 @@ body, html{
     width: 65px;
     border: 1px solid #0B0B0B;
     border-radius: 15px;
-    margin-right: 30px;
+    margin-right: 10%;
     background-color: #0B0B0B;
     display: flex;
     justify-content: center;
@@ -471,18 +480,22 @@ body, html{
     flex-direction: column;
     justify-content: space-evenly;
 }
+.govno{
+    width: 36px;
+    height: 36px;
+}
 .podval{
-    width: 1900px;
-    height: 120px;
+    width: 100%;
+    height: 12.8%;
     background-color: #0B0B0B;
     display: flex;
 }
 .copyright{
-    height: 120px;
-    width: 325px;
+    height: 100%;
+    width: 9.5%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin-left: 7.4%;
 }
 .copy{
     font-size: 14px;
@@ -490,17 +503,299 @@ body, html{
     color: rgba(255,255,255,0.6);
 }
 .pustoy{
-    width: 1048px;
-    height: 120px;
+    width: 47.5%;
+    height: 100%;
 }
 .knopkipodval{
-    height: 120px;
-    width: 380px;
+    height: 100%;
+    width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .pustoy2{
-    height: 120px;
-    width: 146px;
+    height: 100%;
+    width: 8%;
+}
+@media screen and (max-width: 1900px){
+    body, html{
+        width: 1660px;
+        margin: auto;
+    }
+    .okompanii{
+        height: 110%;
+    }
+    .text1{
+        margin-right: 12%;
+    }
+    .texti3shtuk{
+        width: 23%;
+    }
+    .textvnutri1{
+        font-size: 14px;
+    }
+    .text11blok2{
+        font-size: 21px;
+    }
+    .nashkomptext{
+        font-size: 32px;
+    }
+    .zagolovok{
+        font-size: 15px;
+    }
+    .vvod{
+        font-size: 12px;
+        padding-left: 13%;
+        padding-top: 11%;
+        padding-bottom: 11%;
+    }
+    .submit1{
+        font-size: 15px;
+        padding-right: 28.5%;
+        padding-left: 28.5%;
+        padding-top: 9%;
+        padding-bottom: 9%;
+    }
+    .stdknp{
+        font-size: 16px;
+    }
+    .stdknp1{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1660px){
+    body, html{
+        width: 1420px;
+        margin: auto;
+    }
+    .okompanii{
+        height: 110%;
+    }
+    .texti3shtuk{
+        width: 24%;
+    }
+    .textvnutri1{
+        font-size: 13px;
+    }
+    .text11blok2{
+        font-size: 19px;
+    }
+    .nashkomptext{
+        font-size: 29px;
+    }
+    .vseknp{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 45%;
+    }
+    .logopustoe{
+        height: 100%;
+        width: 46%;
+    }
+    .copyright{
+        width: 12%;
+    }
+    .pustoy{
+        width: 45%;
+    }
+    .stdknp{
+        font-size: 14px;
+    }
+    .stdknp1{
+        font-size: 14px;
+    }
+    .zagolovok{
+        font-size: 18px;
+    }
+    .vvod{
+        font-size: 14px;
+        padding-left: 13%;
+        padding-top: 11%;
+        padding-bottom: 11%;
+    }
+    .submit1{
+        font-size: 18px;
+        padding-right: 28.5%;
+        padding-left: 28.5%;
+        padding-top: 9%;
+        padding-bottom: 9%;
+    }
+    .forma{
+        width: 20%;
+        height: 124%;
+    }
+    .kontakti1blok{
+        margin-bottom: 8%;
+    }
+    .karta{
+        width: 79%;
+    }
+    .pustoykontakti{
+        height: 100%;
+        width: 22%;
+        margin-right: 1.51%;
+    }
+    .adres{
+        width: 30%;
+    }
+    .phone{
+        width: 30%;
+    }
+    .pochta{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1420px){
+    body, html{
+        width: 1260px;
+        margin: auto;
+    }
+    .menu{
+        height: 14%;
+    }
+    .logotip{
+        width: 60px;
+        height: 60px;
+    }
+    .vseknp{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 60%;
+    }
+    .logopustoe{
+        height: 100%;
+        width: 31%;
+    }
+    .strdr{
+        font-size: 22px;
+        margin-bottom: 1%;
+    }
+    .naddr{
+        font-size: 45px;
+    }
+    .stdknp{
+        font-size: 13px;
+    }
+    .stdknp1{
+        font-size: 13px;
+    }
+    .nashkomptext{
+        font-size: 25px;
+    }
+    .okompanii{
+        height: 120%;
+    }
+    .pikchi1{
+        margin-right: 12px;
+    }
+    .pikchi2{
+        margin-right: 12px;
+        width: 28%;
+    }
+    .pikchiblok1{
+        margin-bottom: 12px;
+    }
+    .pikchi33{
+        width: 37%;
+    }
+    .pikchi22{
+        margin-right: 12px;
+    }
+    .texti3shtuk{
+        height: 100%;
+        width: 25%;
+    }
+    .textvnutri1{
+        font-size: 12px;
+    }
+    .bloki2text{
+
+    }
+    .text11blok2{
+        font-size: 16px;
+    }
+    .adres{
+        margin-right: 2%;
+    }
+    .phone{
+        margin-right: 1%;
+    }
+    .copyright{
+        width: 12%;
+    }
+    .pustoy{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 1260px){
+    body, html{
+        width: 990px;
+        margin: auto;
+    }
+    .menu{
+        height: 10%;
+    }
+    .logotip{
+        height: 70px;
+        width: 70px;
+    }
+    .knopki{
+        font-size: 15px;
+    }
+    .knopki1{
+        font-size: 15px;
+    }
+    .vseknp{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 60%;
+    }
+    .logopustoe{
+        height: 100%;
+        width: 31%;
+    }
+    .stdknp{
+        width: 14%;
+        font-size: 15px;
+    }
+    .stdknp1{
+        width: 14%;
+        font-size: 15px;
+    }
+    .nashkomptext{
+        font-size: 19px;
+    }
+    .okompanii{
+        height: 70%;
+    }
+    .pikchiblok1{
+        margin-bottom: 20px;
+    }
+    .texti3shtuk{
+        width: 29%;
+    }
+    .text1{
+        margin-right: 2%;
+    }
+    .textvnutri1{
+        font-size: 10px;
+    }
+    .text11blok2{
+        font-size: 13px;
+    }
+    .adres{
+        margin-right: 2%;
+    }
+    .phone{
+        margin-right: 1%;
+    }
+    .copyright{
+        width: 12%;
+    }
+    .pustoy{
+        width: 45%;
+    }
 }
