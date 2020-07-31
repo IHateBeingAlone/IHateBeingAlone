@@ -376,10 +376,10 @@ html, body{
     font-family: 'Rubik', sans-serif;
     cursor: pointer;
 }
-.submit:hover{
+.submit1:hover{
     background-color: #F67167;
 }
-.submit:active{
+.submit1:active{
     background-color: #F6837B;
 }
 .karta{
@@ -434,28 +434,6 @@ html, body{
     justify-content: center;
     align-items: center;
 }
-.iconphone{
-    height: 65px;
-    width: 65px;
-    border: 1px solid #0B0B0B;
-    border-radius: 15px;
-    margin-right: 10%;
-    background-color: #0B0B0B;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.iconpochta{
-    height: 65px;
-    width: 65px;
-    border: 1px solid #0B0B0B;
-    border-radius: 15px;
-    margin-right: 10%;
-    background-color: #0B0B0B;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .adresadres{
     color: rgba(255,255,255,0.4);
     font-size: 16px;
@@ -466,16 +444,6 @@ html, body{
     font-weight: 500;
 }
 .infoadres{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.infophone{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.infopochta{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -568,11 +536,29 @@ html, body{
         width: 1420px;
         margin: auto;
     }
+    .strdr{
+        font-size: 20px;
+    }
+    .naddr{
+        font-size: 45px;
+    }
     .okompanii{
         height: 110%;
     }
+    .pikchiblok1{
+        height: 43%;
+    }
+    .pikchi{
+        margin-bottom: 5%;
+    }
     .texti3shtuk{
         width: 24%;
+    }
+    .text1{
+        margin-right: 10%;
+    }
+    .bloki3text{
+        margin-bottom: 5%;
     }
     .textvnutri1{
         font-size: 13px;
@@ -638,18 +624,28 @@ html, body{
     }
     .adres{
         width: 30%;
+        margin-right: 0%;
     }
     .phone{
         width: 30%;
+        margin-right: 0%;
     }
     .pochta{
         width: 30%;
+        margin-right: 0%;
     }
 }
 @media screen and (max-width: 1420px){
     body, html{
         width: 1260px;
         margin: auto;
+    }
+    .knopki{
+        font-size: 16px;
+    }
+    .knopki1{
+        height: 50%;
+        font-size: 16px;
     }
     .menu{
         height: 14%;
@@ -687,7 +683,11 @@ html, body{
     .okompanii{
         height: 120%;
     }
+    .pikchi{
+        margin-bottom: 5%;
+    }
     .pikchi1{
+        height: 102.5%;
         margin-right: 12px;
     }
     .pikchi2{
@@ -710,11 +710,32 @@ html, body{
     .textvnutri1{
         font-size: 12px;
     }
-    .bloki2text{
-
+    .bloki3text{
+        margin-bottom: 5%;
     }
     .text11blok2{
         font-size: 16px;
+    }
+    .kontakti{
+        height: 60%;
+    }
+    .kontakti1blok{
+        margin-bottom: 10%;
+    }
+    .forma{
+        height: 123%;
+    }
+    .zagolovok{
+        font-size: 14px;
+    }
+    .vvod{
+        font-size: 10px;
+    }
+    .submit1{
+        font-size: 14px;
+    }
+    .karta{
+        width: 73%;
     }
     .adres{
         margin-right: 2%;
@@ -734,12 +755,19 @@ html, body{
         width: 990px;
         margin: auto;
     }
+    .knopki{
+        font-size: 14px;
+    }
+    .knopki1{
+        height: 50%;
+        font-size: 14px;
+    }
     .menu{
         height: 10%;
     }
     .logotip{
-        height: 70px;
-        width: 70px;
+        height: 50px;
+        width: 50px;
     }
     .knopki{
         font-size: 15px;
@@ -765,17 +793,23 @@ html, body{
         width: 14%;
         font-size: 15px;
     }
+    .nashkomp{
+        display: flex;
+    }
     .nashkomptext{
         font-size: 19px;
     }
     .okompanii{
-        height: 70%;
+        height: 110%;
     }
     .pikchiblok1{
         margin-bottom: 20px;
     }
     .texti3shtuk{
         width: 29%;
+    }
+    .forma{
+        height: 113%;
     }
     .text1{
         margin-right: 2%;
@@ -793,9 +827,158 @@ html, body{
         margin-right: 1%;
     }
     .copyright{
-        width: 12%;
+        width: 17%;
     }
     .pustoy{
-        width: 45%;
+        width: 40%;
+    }
+    .govno{
+        width: 35px;
+        height: 35px;
+    }
+    .iconadres{
+        width: 50px;
+        height: 50px;
+    }
+    .infoadres{
+        font-size: 14px;
+    }
+    .adresadres{
+        font-size: 12px;
+    }
+    .adressever{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 990px){
+    body, html{
+        width: 760px;
+        margin: auto;
+    }
+    .logotip{
+        width: 40px;
+        height: 40px;
+    }
+    .menu{
+        height: 12%;
+    }
+    .vseknp{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 70%;
+    }
+    .logopustoe{
+        height: 100%;
+        width: 21%;
+    }
+    .knopki{
+        font-size: 12px;
+    }
+    .knopki1{
+        font-size: 14px;
+    }
+    .strdr{
+        font-size: 16px;
+        margin-bottom: 2%;
+    }
+    .naddr{
+        font-size: 35px;
+    }
+    .kartinka{
+        height: 60%;
+    }
+    .stdknp{
+        width: 20%;
+        margin-right: 5%;
+    }
+    .stdknp1{
+        width: 20%;
+    }
+    .nashkomptext{
+        font-size: 14px;
+    }
+    .okompanii{
+        height: 130%;
+    }
+    .pikchiblok1{
+        margin-bottom: 12px;
+    }
+    .pikchiblok2{
+        height: 49%;
+    }
+    .textvnutri1{
+        font-size: 8px;
+    }
+    .textvnutri{
+        height: 34%;
+    }
+    .text11blok2{
+        font-size: 10px;
+        line-height: 1.6;
+    }
+    .forma{
+        height: 132%;
+        margin-right: 3.5%;
+        width: 30%;
+    }
+    .forma1{
+        display: flex;
+        flex-direction: column;
+    }
+    .karta{
+        width: 61%;
+    }
+    .kontakti{
+        height: 70%;
+    }
+    .kontakti1blok{
+        margin-bottom: 15%;
+    }
+    .zagolovok{
+        font-size: 12px;
+        margin-bottom: 20%;
+    }
+    .vvod{
+        font-size: 10px;
+        margin-bottom: 15%;
+    }
+    .govno{
+        width: 25px;
+        height: 25px;
+    }
+    .iconadres{
+        width: 35px;
+        height: 35px;
+    }
+    .adresadres{
+        font-size: 8px;
+    }
+    .adressever{
+        font-size: 8px;
+    }
+    .adres{
+        margin-right: 0%;
+    }
+    .phone{
+        margin-right: 0%;
+    }
+    .pochta{
+        margin-right: 0%;
+    }
+    .pustoykontakti{
+        width: 40%;
+    }
+    .copyright{
+        width: 20%;
+        margin-top: 0.4%;
+        display: flex;
+        align-items: center;
+    }
+    .copy{
+        font-size: 10px;
+    }
+    .pustoy{
+        width: 37%;
     }
 }
