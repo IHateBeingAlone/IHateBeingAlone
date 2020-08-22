@@ -1075,55 +1075,53 @@ html, body{
     .kontakti2blok{
         display: none;
     }
-    .kartinka{
-        max-width: 480px;
-    }
-    .okompanii{
-        max-width: 480px;
-    }
     .nad1{
         margin-top: 55px;
-        width: 400px;
+        width: 83%;
         height: 14px;
         margin-left: 0;
     }
     .strdr{
         font-size: 12px;
-        margin-left: 60px;
+        margin-left: 17%;
     }
     .nad2{
         margin-top: 10px;
         height: 62px;
         margin: 0;
+        width: 83%;
     }
     .naddr{
         font-size: 24px;
-        margin: 60px;
+        margin-left: 17%;
     }
     .knop2{
         height: 87px;
         margin-left: 0;
+        width: 83%;
     }
     .stdknp{
         font-size: 10px;
         border: 2px solid white;
         border-radius: 6px;
-        margin-left: 60px;
+        margin-left: 17%;
+        margin-right: 4.4%;
     }
     .stdknp1{
         font-size: 10px;
         border: 2px solid white;
-        border-radius: 6px;
+        border-radius: 6px; 
     }
     .kartinka{
         height: 251px;
+        width: 100%;
     }
     .nashkomptext{
         font-size: 12px;
-        margin-left: 60px;
+        margin-left: 17%;
     }
     .nashkomp{
-        width: 420px;
+        width: 83%;
         height: 107px;
         display: flex;
         align-items: center;
@@ -1157,31 +1155,41 @@ html, body{
     .bloki3text{
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         height: 412px;
         margin-bottom: 0;
     }
+    .textvnutri{
+        height: 50%;
+    }
+    .textvnutri1{
+        font-size: 14px;
+    }
     .texti3shtuk{
         height: 104px;
-        width: 360px;
+        width: 83%;
     }
     .text1{
         margin-bottom: 20px;
     }
     .bloki2text2{
         display: flex;
-        margin-left: 60px;
-        width: 360px;
+        margin-left: 17%;
+        width: 83%;
         height: 350px;
-        margin-bottom: 0;
-        margin-top: 0;
     }
     .text11blok2{
         font-size: 14px;
     }
     .hidden{
         display: flex;
-        max-width: 480px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 443px){
+    body, html{
+        min-width: 320px;
+        width: 100%;
+        margin: auto;
     }
 }
