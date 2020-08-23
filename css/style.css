@@ -344,13 +344,13 @@ html, body{
     text-decoration: none;
     color: white;
     font-family: 'Rubik', sans-serif;
-    margin-bottom: 13.5%;
     font-size: 18px;
     font-weight: 500;
+    margin-bottom: 13.5%;
     display: flex;
     justify-content: center;
 }
-.placeholder{
+.placeholder1{
     height: 21.5%;
     width: 74.47%;
     margin-bottom: 11.2%;
@@ -371,11 +371,11 @@ html, body{
 .submit1{
     font-size: 18px;
     font-weight: 500;
-    border: 1px solid black;
     padding-right: 28.5%;
     padding-left: 28.5%;
     padding-top: 9%;
     padding-bottom: 9%;
+    border: 1px solid black;
     background-color: #F64538;
     border-radius: 10px;
     text-decoration: none;
@@ -492,6 +492,14 @@ html, body{
     height: 100%;
     width: 8%;
 }
+.vvod::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+.vvod::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+.vvod:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+.vvod:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+.vvod:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.vvod:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+.vvod:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+.vvod:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
 @media screen and (max-width: 1900px){
     body, html{
         min-width: 1660px;
@@ -526,7 +534,7 @@ html, body{
         padding-bottom: 11%;
         width: 100%;
     }
-    .placeholder{
+    .placeholder1{
         width: 87%;
     }
     .forma1{
@@ -862,7 +870,7 @@ html, body{
         font-size: 12px;
         margin-left: -8%;
     }
-    .placeholder{
+    .placeholder1{
         width: 70%;
     }
     .submit1{
@@ -923,7 +931,7 @@ html, body{
     .menu{
         height: 12%;
     }
-    .placeholder{
+    .placeholder1{
         margin: 0;
     }
     .vseknp{
@@ -987,7 +995,7 @@ html, body{
         margin-right: 3.5%;
         width: 30%;
     }
-    .placeholder{
+    .placeholder1{
         width: 87%;
     }
     .submit1{
@@ -1054,12 +1062,11 @@ html, body{
         width: 37%;
     }
 }
-@media screen and (max-width: 482px){
+@media screen and (max-width: 602px){
     body, html{
         min-width: 400px;
         width: 100%;
         margin: auto;
-        height: 100%;
     }
     .menu{
         display: none;
@@ -1084,28 +1091,28 @@ html, body{
     }
     .strdr{
         font-size: 12px;
-        margin-left: 17%;
+        margin-left: 12.5%;
     }
     .nad2{
         margin-top: 10px;
         height: 62px;
         margin: 0;
-        width: 83%;
+        width: 87.5%;
     }
     .naddr{
         font-size: 24px;
-        margin-left: 17%;
+        margin-left: 12.5%;
     }
     .knop2{
         height: 87px;
         margin-left: 0;
-        width: 83%;
+        width: 87.5%;
     }
     .stdknp{
         font-size: 10px;
         border: 2px solid white;
         border-radius: 6px;
-        margin-left: 17%;
+        margin-left: 12.5%;
         margin-right: 4.4%;
     }
     .stdknp1{
@@ -1113,16 +1120,21 @@ html, body{
         border: 2px solid white;
         border-radius: 6px; 
     }
+    .okompanii{
+        margin-bottom: 80px;
+        height: 975px;
+        width: 100%;
+    }
     .kartinka{
         height: 251px;
         width: 100%;
     }
     .nashkomptext{
         font-size: 12px;
-        margin-left: 17%;
+        margin-left: 12.5%;
     }
     .nashkomp{
-        width: 83%;
+        width: 87.5%;
         height: 107px;
         display: flex;
         align-items: center;
@@ -1133,17 +1145,17 @@ html, body{
         margin-bottom: 0;
     }
     .pikchi1{
-        width: 170px;
+        width: 35.4%;
         height: 120px;
-        margin-right: 10px;
+        margin-right: 2.1%;
     }
     .pikchi2{
-        width: 120px;
+        width: 25%;
         height: 120px;
-        margin-right: 10px;
+        margin-right: 2.1%;
     }
     .pikchi3{
-        width: 170px;
+        width: 35.4%;
         height: 120px;
         margin-right: 0px;
     }
@@ -1156,9 +1168,13 @@ html, body{
     .bloki3text{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: flex-start;
+        justify-content: flex-start;
         height: 412px;
         margin-bottom: 0;
+        margin-top: 30px;
+        width: 75%;
+        margin-left: 12.5%;
     }
     .textvnutri{
         height: 50%;
@@ -1168,28 +1184,221 @@ html, body{
     }
     .texti3shtuk{
         height: 104px;
-        width: 83%;
+        width: 100%;
     }
     .text1{
         margin-bottom: 20px;
     }
     .bloki2text2{
+        margin-top: 30px;
         display: flex;
-        margin-left: 17%;
+        margin-left: 12.5%;
         width: 83%;
-        height: 350px;
+        height: 60%;
     }
     .text11blok2{
         font-size: 14px;
     }
     .hidden{
+        display: flex;
+        flex-direction: column;
         width: 100%;
+        margin-bottom: 30px;
     }
+    .kontaktiiconci{
+        width: 87.5%;
+        margin-bottom: 20px;
+    }
+    .kontaktiiconci2{
+        width: 87.5%;
+    }
+    .kontaktihidden{
+        display: flex;
+        flex-direction: column;
+        margin-left: 12.5%;
+    }
+    .adres{
+        width: 40%;
+    }
+    .phone{
+        margin-left: 10.5%;
+        width: 40%;
+    }
+    .adresadres{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .adressever{
+        font-size: 16px;
+    }
+    .kontakti{
+        width: 460px;
+        height: 360px;
+        margin: 0;
+    }
+    .kontakti1blok{
+        width: 78.3%;
+        margin: 0;
+    }
+    .kontakti1blok, .forma, .zagolovok, .placeholder1, .vvod, .submit1{
+        all: initial;
+    }
+    .form{
+        margin-left: 50px;
+        width: 360px;
+        height: 300px;
+        border-radius: 10px;
+        background-color: #0B0B0B;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .zagolovok{
+        text-decoration: none;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 27px;
+        align-self: start;
+        margin-left: 8px;
+    }
+    .placeholder1{
+        width: 300px;
+        height: 50px;
+        border: 1px solid #101010;
+        border-radius: 10px;
+        background-color: #101010;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .vvod{
+        text-decoration: none;
+        color: #707070;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        width: 100%;
+        height: 100%;
+        border: 1px solid #101010;
+        border-radius: 10px;
+        padding-left: 20px;
+    }
+    .vvod:focus{
+        border: 1px solid white;
+    }
+    .submitblok{
+        width: 300px;
+        height: 50px;
+        border: 1px solid black;
+        background-color: #F64538;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .submit1{
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        cursor: pointer;        
+    }
+    .vvod::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+    .vvod::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+    .vvod:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+    .vvod:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+    .vvod:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+    .vvod:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+    .vvod:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+    .vvod:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
 }
-@media screen and (max-width: 443px){
+@media screen and (max-width: 470px){
     body, html{
         min-width: 320px;
         width: 100%;
         margin: auto;
+    }
+    .kartinka{
+        width: 100%;
+        height: 193px;
+    }
+    .nad1{
+        width: 57%;
+        margin-left: 10%;
+    }
+    .strdr{
+        font-size: 10px;
+        margin-left: 0;
+    }
+    .nad2{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .naddr{
+        font-size: 18px;
+        margin-left: 0;
+    }
+    .knop2{
+        width: 84%;
+        margin-left: 10%;
+    }
+    .stdknp{
+        margin-right: 6%;
+        margin-left: 0;
+        font-size: 10px;
+        width: 29.6%;
+    }
+    .stdknp1{
+        font-size: 10px;
+        width: 26.2%;
+    }
+    .nashkomp{
+        width: 90%;
+        margin-left: 10%;
+        height: 94px;
+    }
+    .nashkomptext{
+        font-size: 9px;
+        margin-left: 0;
+    }
+    .pikchi{
+        width: 100%;
+        height: 87px;
+    }
+    .pikchi1{
+        width: 35.4%;
+        height: 79.5px;
+        margin-right: 2.1%;
+    }
+    .pikchiblok1{
+        width: 100%;
+        height: 40px;
+        margin-bottom: 7px;
+    }
+    .pikchiblok2{
+        width: 100%;
+        height: 40px;
+        margin-right: 0;
+    }
+    .pikchi22{
+        margin-right: 7px;
+        width: 62.1%;
+    }
+    .pikchi33{
+        width: 32.3%;
+        margin-right: 0;
+    }
+    .pikchi2{
+        width: 25%;
+        height: 87px;
+        margin-right: 2.1%;
+    }
+    .pikchi3{
+        width: 35.4%;
+        height: 87px;
     }
 }
