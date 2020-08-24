@@ -42,6 +42,9 @@ html, body{
     background-color: #101010;
     min-width: 495px;
 }
+.bloki2text22{
+    display: none;
+}
 .hidden{
     display: none;
 }
@@ -1400,5 +1403,118 @@ html, body{
     .pikchi3{
         width: 35.4%;
         height: 87px;
+    }
+    .bloki3text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 352px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .textvnutri{
+        height: 45%;
+        width: 92%;
+    }
+    .textvnutri1{
+        font-size: 12px;
+    }
+    .texti3shtuk{
+        height: 84px;
+        width: 100%;
+    }
+    .text1{
+        margin-bottom: 20px;
+    }
+    .bloki2text2{
+        display: none;
+    }
+    .bloki2text22{
+        display: flex;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .text11blok22{
+        font-size: 11px;
+        font-weight: 400;
+        color: rgba(255,255,255,0.4);
+    }
+    .okompanii{
+        height: 691px;
+    }
+    .nashkomp{
+        height: 94px;
+    }
+    .pikchi{
+        height: 87px;
+    }
+    .bloki3text{
+        height: 292px;
+    }
+    .bloki2text22{
+        height: 288px;
+        width: 80%;
+    }
+    .kontaktiiconci{
+        width: 87.5%;
+        margin-bottom: 20px;
+    }
+    .kontaktiiconci2{
+        width: 87.5%;
+    }
+    .kontaktihidden{
+        display: flex;
+        flex-direction: column;
+        margin-left: 12.5%;
+    }
+    .adres{
+        width: 40%;
+    }
+    .phone{
+        margin-left: 10%;
+        width: 40%;
+    }
+    .adresadres{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .adressever{
+        font-size: 12px;
+    }
+    .form{
+        margin-left: 35px;
+        width: 280px;
+        height: 280px;
+    }
+    .zagolovok{
+        font-size: 18px;
+        margin-bottom: 30px;
+        margin-left: 22px;
+    }
+    .placeholder1{
+        width: 220px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    .vvod{
+        font-size: 14px;
+        width: 100%;
+        height: 100%;
+        padding-left: 20px;
+    }
+    .submitblok{
+        width: 220px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .submit1{
+        font-size: 14px;  
+    }
+    .kontakti{
+        width: 80%;
+        height: 280px;
     }
 }
